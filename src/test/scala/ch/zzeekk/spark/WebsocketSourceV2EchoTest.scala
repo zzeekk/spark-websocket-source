@@ -22,7 +22,6 @@ class WebsocketSourceV2EchoTest extends FunSuite {
   // send this as initial message
   val initMsg = """echo test"""
 
-  // Zum Ausfuehren ignore durch test ersetzen
   test("websocket echo test") {
     import ss.implicits._
 
